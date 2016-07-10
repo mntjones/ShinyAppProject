@@ -8,7 +8,7 @@ shinyUI(pageWithSidebar(
     textInput(inputId="num1", label = "Your Number"),
     # box to enter second number
     textInput(inputId="num2", label = "Your Multiplier"),
-    # button to begin calculations
+    p("Values of Square Root, Squared, Cubed and Multiply will be shown upon button click"),
     actionButton("goButton", "Calculate!")
   ),
   
@@ -24,10 +24,11 @@ shinyUI(pageWithSidebar(
     textOutput("square"),
     p("Your Number Cubed"),
     textOutput("cube"),
-    p("Your Number by Multiplier "),
+    p("Your Number by Your Multiplier"),
     textOutput("product"),
     p(" "),
-    p("Documentation found: https://github.com/mntjones/ShinyAppProject/blob/master/README.md")
+    p("For further help, if required: 
+      https://github.com/mntjones/ShinyAppProject/blob/master/README.md")
   )
 ))
 

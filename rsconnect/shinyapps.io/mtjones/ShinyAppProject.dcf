@@ -2,6 +2,6 @@ name: ShinyAppProject
 account: mtjones
 server: shinyapps.io
 appId: 113507
-bundleId: 500891
+bundleId: 500905
 url: https://mtjones.shinyapps.io/ShinyAppProject/
-when: 1468134030.84036
+when: 1468135498.39965

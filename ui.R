@@ -5,7 +5,6 @@ shinyUI(pageWithSidebar(
   headerPanel("Number Manipulator"),
   sidebarPanel(
     # box to enter first number
-    
     textInput(inputId="num1", label = "Your Number"),
     # box to enter second number
     textInput(inputId="num2", label = "Your Multiplier"),
@@ -26,7 +25,9 @@ shinyUI(pageWithSidebar(
     p("Your Number Cubed"),
     textOutput("cube"),
     p("Your Number by Multiplier "),
-    textOutput("product")
+    textOutput("product"),
+    p(" "),
+    p("Documentation found: https://github.com/mntjones/ShinyAppProject/blob/master/README.md")
   )
 ))
 
